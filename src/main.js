@@ -126,7 +126,7 @@ let index = numbers2.findIndex(num => num > 25);
 console.log(index);
 
 // use for loop to find the index of the first element greater than a certain value.
-value = 40;
+let value = 40;
 for (let i = 0; i < numbers2.length; i++) {
     if (value < numbers2[i]) {
         console.log(`index of the number which is greater then 40 is ${i}`);
